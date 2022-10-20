@@ -40,11 +40,14 @@ main {
   0% {
     background-position: top;
   }
-  50% {
+  25% {
     background-position: bottom;
   }
-  100% {
+  68% {
     background-position: center;
+  }
+  100% {
+    background-position: top;
   }
 }
 
@@ -97,11 +100,14 @@ main h1 {
     0% {
       background-position: top;
     }
-    50% {
+    25% {
       background-position: bottom;
     }
-    100% {
+    68% {
       background-position: center;
+    }
+    100% {
+      background-position: top;
     }
   }
 
