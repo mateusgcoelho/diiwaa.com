@@ -32,7 +32,7 @@ main {
 
   background: url("assets/background.png") 0% 0% no-repeat;
   animation-name: MOVE-BG;
-  animation-duration: 20s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
 }
 
@@ -40,11 +40,8 @@ main {
   0% {
     background-position: top;
   }
-  25% {
+  50% {
     background-position: bottom;
-  }
-  68% {
-    background-position: center;
   }
   100% {
     background-position: top;
@@ -92,7 +89,7 @@ main h1 {
 
     background: url("assets/background.png") 0% 0% no-repeat;
     animation-name: MOVE-BG;
-    animation-duration: 40s;
+    animation-duration: 140s;
     animation-iteration-count: infinite;
   }
 
@@ -100,11 +97,8 @@ main h1 {
     0% {
       background-position: top;
     }
-    25% {
+    50% {
       background-position: bottom;
-    }
-    68% {
-      background-position: center;
     }
     100% {
       background-position: top;
