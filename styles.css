@@ -17,10 +17,6 @@
 body {
   width: 100%;
   height: 100vh;
-  background: url("assets/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 main {
@@ -33,6 +29,23 @@ main {
   justify-content: center;
 
   text-align: center;
+
+  background: url("assets/background.png") 0% 0% no-repeat;
+  animation-name: MOVE-BG;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes MOVE-BG {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: center;
+  }
 }
 
 main h1 {
