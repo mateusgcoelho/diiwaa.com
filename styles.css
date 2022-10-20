@@ -52,8 +52,18 @@ main h1 {
 
 .button-social {
   display: block;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 
   font-size: 1.7rem;
   color: var(--white);
+}
+
+.diiwaa-concept-logo {
+  width: 800px;
+}
+
+@media (max-width: 768px) {
+  .diiwaa-concept-logo {
+    width: 90%;
+  }
 }
