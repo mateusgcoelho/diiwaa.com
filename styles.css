@@ -32,17 +32,22 @@ main {
 
   background: url("assets/background.png") 0% 0% no-repeat;
   background-size: cover;
+
+  animation-name: MOVE-BG;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes MOVE-BG {
   0% {
-    background-position: top;
+    background-position: center;
   }
   50% {
     background-position: bottom;
   }
   100% {
-    background-position: top;
+    background-position: center;
   }
 }
 
